@@ -51,5 +51,17 @@
     transform: translateX(-50%);
     width: 10px;
     height: 200px;
-    background: linear-gradient(#1a991a) transparent;
+    background: linear-gradient(#1a991a, transparent);
+}
+
+.scene .rocket::after{
+    content: '';
+    position: absolute;
+    bottom: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 200px;
+    background: linear-gradient(#e07dd7, transparent);
+    filter: blur(20px);
 }
