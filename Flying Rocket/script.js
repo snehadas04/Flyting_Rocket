@@ -10,6 +10,6 @@ function stars(){
 
         star.style.left = x+'px';
         star.style.width=1+'px';
-        
+        star.style.height=
     }
 }
